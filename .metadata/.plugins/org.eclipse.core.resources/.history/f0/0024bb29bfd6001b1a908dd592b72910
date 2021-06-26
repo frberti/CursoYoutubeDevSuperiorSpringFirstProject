@@ -1,5 +1,6 @@
 package com.devsuperior.myfirstproject.resources;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import com.devsuperior.myfirstproject.repositories.CategoryRepository;
 
 @RestController
 @RequestMapping(value = "/categories")
-public class CategoryResource {
+public class ProductResource {
 	
 	@Autowired
 	private CategoryRepository categoryRepository;
